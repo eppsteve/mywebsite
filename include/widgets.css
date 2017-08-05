@@ -1,0 +1,111 @@
+/* forms */
+form.wpcf7-form {
+	position: relative;
+}
+fieldset {
+	position: relative;
+	border: 0 !important;
+	margin: 0 0 1em 0;
+	padding: 0;
+}
+fieldset.form-actions {
+	margin: 0;
+}
+fieldset > label:first-child {
+	display: block;
+}
+fieldset > label[for] {
+	cursor: pointer;
+}
+fieldset > label > small {
+	font-size: 0.9em;
+	color: #999;
+}
+fieldset p.help {
+	margin: 0;
+	color: #aaa;
+	font-style: italic;
+	line-height: 1.1em;
+}
+.required {
+	color: #0e74a2;
+}
+.comment-notes {
+	color: #999;
+	font-style: italic;
+}
+label[for] {
+	display: block;
+	margin: 0 0 0.25em 0;
+	color: #ffffff;
+}
+#contact-form input, #contact-form textarea, #contact-form button {
+	padding: 1em;
+	border: 0px solid #222;
+	border-bottom-width: 1px;
+	background: #f9f9f9;
+	font-size: 12px !important;
+	width: 100%;
+	outline: 0;
+    border-radius: 0.25em;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#contact-form input:focus, #contact-form textarea:focus {
+	border-color: #0e74a2;
+	background-color: #fff;
+}
+input[type=checkbox], input[type=radio] {
+	width: auto;
+}
+input[type=checkbox] + label[for], input[type=radio] + label[for] {
+	display: inline;
+}
+#contact-form input[type=submit], #contact-form input[type=button], #contact-form button {
+    clear: both;
+	border: 0;
+	background: #FDC82B;
+	font-size: 1.25em;
+	width: auto;
+    margin: 0;
+    display: block;
+    box-shadow: 0 4px 0 rgba(0, 0, 0, 0.1);
+}
+fieldset.captcha > img.wpcf7-captchac {
+	display: block;
+	float: left;
+	margin: 11px 0;
+}
+fieldset.captcha > img.wpcf7-captchac + span {
+	display: block;
+	margin-left: 100px;
+}
+fieldset.captcha p.help {
+	margin-left: 100px;
+}
+.wpcf7-not-valid-tip, div.wpcf7-validation-errors {
+	position: absolute;
+	bottom: 0.75em;
+	right: 0.75em;
+	border: 0;
+	background: #e14254;
+	color: #fff;
+	padding: 0.25em 0.5em;
+	border-radius: 0.25em;
+}
+.wpcf7-not-valid-tip strong, div.wpcf7-validation-errors strong {
+	color: #fff;
+}
+div.wpcf7-validation-errors {
+	position: absolute;
+	bottom: 3em;
+	right: 0;
+}
+.wpcf7-form.sent fieldset {
+	display: none;
+}
+div.wpcf7-mail-sent-ok {
+	font-size: 2em;
+}
